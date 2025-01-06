@@ -75,10 +75,8 @@ body {
 }
 
 .only-text-outline{
-    -webkit-text-stroke: 4px transparent;
+    -webkit-text-stroke: 10px black;
     -webkit-text-fill-color: #000000;
-    background: black;
-    -webkit-background-clip: text;
 }
 
 .logo-small {
