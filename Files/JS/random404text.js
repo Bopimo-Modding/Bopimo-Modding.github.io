@@ -10,6 +10,8 @@ const randomText = [
     "Tell the Teem I said hi",
     "Tell the Heka I said hi",
     "Tell the Butab I said hi",
+    "Tell the Leon I said hi",
+    "Tell the Isaiah I said hi",
     "Tell the FireCatMagic I said hi",
     "Tell the Leaf I said hi",
     "Shoutouts to ZKeven",
@@ -28,6 +30,7 @@ const randomText = [
     "I'm kind of hungry :V",
 
     "...?",
+    "Huh?!",
     "Wha..?",
     "Zzz...",
 
