@@ -11,6 +11,7 @@
         https://github.com/Bopimo-Modding">
 
         <link rel="stylesheet" href="/Files/CSS/theme.css">
+        <link rel="stylesheet" href="/Files/CSS/404.css">
 
         <!-- Favicons -->
         <link rel="icon" type="image/png" href="/Files/Images/Favicons/favicon-96x96.png" sizes="96x96" />
@@ -19,32 +20,27 @@
         <link rel="apple-touch-icon" sizes="180x180" href="/Files/Images/Favicons/apple-touch-icon.png" />
         <meta name="apple-mobile-web-app-title" content="Bopimod" />
         <link rel="manifest" href="/Files/Images/Favicons/site.webmanifest" />
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-JobWAqYk5CSjWuVV3mxgS+MmccJqkrBaDhk8SKS1BW+71dJ9gzascwzW85UwGhxiSyR7Pxhu50k+Nl3+o5I49A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="/Files/JS/random404text.js"></script>
     </head>
     <body>
+        <audio id="bgm" preload="auto" loop="true">
+            <source src="/Files/Audio/Night Stroll.mp3"> </source>
+        </audio>
+
         <div class="background-pattern"></div>
-        <div class="build-info text-outline">
-            <h3>0.5.0-beta1</h3>
-            <h3>Build Information</h3>
-            <h3>Build Time | 2025-01-06 22:25</h3>
-            <h3>Server OS | Ubuntu 22.04 20241215.1.0</h3>
-        </div>
         <div class="main">
-            <div class="logo-small">
-                <img src="/Files/Images/modding-logo-small.svg">
+            <div class="four-zero-four">
+                <img id="error-image" src="/Files/Images/404/404_Sleep.png">
+                <img id="error-bopi" src="/Files/Images/404/404_Sleep_Bopi.png">
             </div>
-            <div id="soon-text">
-                <h1 id="text" class="rainbow-text-outline" style="height: 50px; margin: 0;">
-                    <wavy>S</wavy><wavy>o</wavy><wavy>o</wavy><wavy>n</wavy><wavy>.</wavy><wavy>.</wavy><wavy>.</wavy>
-                </h1>
-                <h1 id="outline" class="only-text-outline" style="height: 50px; margin: 0;">
-                    <wavy>S</wavy><wavy>o</wavy><wavy>o</wavy><wavy>n</wavy><wavy>.</wavy><wavy>.</wavy><wavy>.</wavy>
+            <div id="error-text" class="text-outline">
+                <h1>
+                    <!--Tell the Words Of Wisdom Bopi I said hi-->
+                    .
                 </h1>
             </div>
-        </div>
-        <div class="socials">
-            <a href="https://discord.gg/qKhMmYXN5M"><img alt="Discord Logo" src="/Files/Images/Icons/Social/discord/white.svg"></a>
-            <a href="https://github.com/Bopimo-Modding"><img alt="Github Logo" src="/Files/Images/Icons/Social/github/white.svg"></a>
-            
         </div>
     </body>
 </html>

@@ -1,0 +1,39 @@
+.four-zero-four {
+    width: 40%;
+    display: grid;
+    filter: 
+    drop-shadow(-3px -3px 0px #000) 
+    drop-shadow( 3px -3px 0px #000) 
+    drop-shadow( 3px  3px 0px #000)
+    drop-shadow(-3px  3px 0px #000);
+}
+.four-zero-four img{
+    width: 100%;
+}
+
+#error-text {
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    text-align: center;
+}
+
+#error-image, #error-bopi {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#error-image {
+    -webkit-animation: slow-rainbow 240s linear infinite;
+}
+
+@keyframes slow-rainbow {
+    from {
+       -webkit-filter:hue-rotate(0deg);
+               filter:hue-rotate(0deg);
+       }
+     to {
+       -webkit-filter:hue-rotate(360deg);
+               filter:hue-rotate(360deg);
+       }
+   }
