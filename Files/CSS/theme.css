@@ -38,7 +38,7 @@ body {
 .background-pattern {
     -webkit-mask-image: url(/Files/Images/Patterns/Checkerboard.png);
     mask-image: url(/Files/Images/Patterns/Checkerboard.png);
-    mask-size: 150px 150px;
+    mask-size: 250px 250px;
     mask-repeat: repeat;
     opacity: .15;
     height: 200%;
@@ -46,7 +46,7 @@ body {
     background-color: white;
     position: fixed;
     mask-position: 0 0;
-    animation: scrolling-pattern 7.5s infinite linear;
+    animation: scrolling-pattern 12s infinite linear;
     top: -200px;
     left: -200px;
     z-index: -1;
@@ -138,7 +138,7 @@ wavy:nth-child(7) {
 /* Animations */
 @keyframes scrolling-pattern {
     100% {
-        mask-position: -150px 150px;
+        mask-position: -250px -250px;
     }
 }
 
