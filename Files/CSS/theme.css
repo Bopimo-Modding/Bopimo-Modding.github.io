@@ -52,6 +52,56 @@ body {
     z-index: -1;
 }
 
+.socials {
+    display: flex;
+    position: fixed;
+    justify-content: end;
+    width: 30%;
+    height: 10%;
+    right: 0px;
+    bottom: 0px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+.socials a {
+    width: 64px;
+    height: fit-content;
+    display: inline-block;
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 16px;
+    transition: 0.3s;
+
+    filter: 
+    drop-shadow(-2px -2px 0px #000) 
+    drop-shadow( 2px -2px 0px #000) 
+    drop-shadow( 2px  2px 0px #000)
+    drop-shadow(-2px  2px 0px #000);
+
+    opacity: .15;
+}
+
+.socials a:hover {
+    width: 80px;
+
+    filter: 
+    drop-shadow(-3px -3px 0px #000) 
+    drop-shadow( 3px -3px 0px #000) 
+    drop-shadow( 3px  3px 0px #000)
+    drop-shadow(-3px  3px 0px #000);
+
+    opacity: .75;
+}
+
+.socials a img{
+    width: 100%;
+
+    
+}
+
+
+/* Text */
 .text-outline{
     -webkit-text-stroke: 3px transparent;
     -webkit-text-fill-color: #ffffff;
