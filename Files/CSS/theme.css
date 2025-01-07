@@ -100,14 +100,44 @@ body {
     
 }
 
+.build-info {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    text-align: end;
+    justify-content: end;
+    
+    right: 0px;
+    top: 8px;
+    min-width: 25%;
+    
+}
+
+.build-info h3 {
+    margin: 2px 16px 0 0;
+}
 
 /* Text */
-.text-outline{
+.text-outline {
     -webkit-text-stroke: 3px transparent;
     -webkit-text-fill-color: #ffffff;
     background: black;
     -webkit-background-clip: text;
 }
+
+.text-outline h3 {
+    -webkit-text-stroke: 6px transparent;
+}
+
+.text-outline h2 {
+    -webkit-text-stroke: 8px transparent;
+}
+
+.text-outline h1 {
+    -webkit-text-stroke: 10px transparent;
+}
+
+
 
 .gold-text-outline {
     -webkit-text-stroke: 3px transparent;
