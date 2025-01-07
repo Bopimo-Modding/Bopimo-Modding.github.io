@@ -41,14 +41,14 @@ body {
     mask-size: 150px 150px;
     mask-repeat: repeat;
     opacity: .15;
-    height: 150%;
-    width: 150%;
+    height: 200%;
+    width: 200%;
     background-color: white;
     position: fixed;
     mask-position: 0 0;
-    animation: scrolling-pattern 2.5s infinite linear;
-    top: -150px;
-    left: -150px;
+    animation: scrolling-pattern 7.5s infinite linear;
+    top: -200px;
+    left: -200px;
     z-index: -1;
 }
 
