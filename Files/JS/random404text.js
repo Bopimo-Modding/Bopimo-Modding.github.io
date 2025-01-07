@@ -2,7 +2,7 @@ const randomText = [
     "Tell the Words Of Wisdom Bopi i said hi",
     "Tell the TheShovel I said hi",
     "Tell the 0array I said hi",
-    "Tell the Evlyn I said hi",
+    "Tell the Evelyn I said hi",
     "Tell the Fzorb I said hi",
     "Tell the Yek I said hi",
     "Tell the Matt I said hi",

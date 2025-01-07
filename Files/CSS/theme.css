@@ -154,7 +154,7 @@ body {
     animation: rainbow 4s linear infinite;
 }
 
-.only-text-outline{
+.only-text-outline {
     -webkit-text-stroke: 10px black;
     -webkit-text-fill-color: #000000;
 }
