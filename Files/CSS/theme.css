@@ -2,6 +2,8 @@
 * {
     --bg-color: rgb(185, 0, 0);
     --rainbow: linear-gradient(90deg in hsl longer hue, red 0 50%) 0/200%;
+    --shop-card-bg: #212121;
+    --shop-card-b: #3f3f3f;
 }
 
 .quicksand-500 {
@@ -158,79 +160,11 @@ body {
     -webkit-text-stroke: 10px black;
     -webkit-text-fill-color: #000000;
 }
-
-.logo-small {
-    width: 12.5%;
-}
-
-.main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-}
-
-#soon-text {
-    display: grid;
-    width: 100%;
-    text-align: center;
-}
-
-#text, #outline {
-    grid-column: 1;
-    grid-row: 1;
-}
-
-#text {
-    z-index: 2;
-}
-
-wavy {
-    animation: wavey 1s ease-in-out infinite;
-    display: inline-block;
-}
-
-/* This has me in pain ._. */
-wavy:nth-child(1) {
-    animation-delay: 0.0s;
- }
-wavy:nth-child(2) {
-    animation-delay: 0.1s;
- }
-wavy:nth-child(3) {
-    animation-delay: 0.2s;
- }
-wavy:nth-child(4) {
-    animation-delay: 0.3s;
- }
-wavy:nth-child(5) {
-    animation-delay: 0.4s;
- }
-wavy:nth-child(6) {
-    animation-delay: 0.5s;
- }
-wavy:nth-child(7) {
-    animation-delay: 0.6s;
- }
  
 /* Animations */
 @keyframes scrolling-pattern {
     100% {
         mask-position: -250px -250px;
-    }
-}
-
-@keyframes wavey {
-    0% {
-       transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(10px);
-    }
-    100% {
-       transform: translateY(0px);
     }
 }
 

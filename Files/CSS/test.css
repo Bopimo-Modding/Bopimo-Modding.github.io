@@ -1,0 +1,5 @@
+.main {
+    background-color: var(--shop-card-bg);
+    border: 3px solid var(--shop-card-b);
+    border-radius: 5px;
+}
