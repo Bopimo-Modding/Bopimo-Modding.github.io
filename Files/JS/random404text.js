@@ -1,20 +1,22 @@
 const randomText = [
     "Tell the Words Of Wisdom Bopi i said hi",
-    "Tell the TheShovel I said hi",
-    "Tell the 0array I said hi",
-    "Tell the Evelyn I said hi",
-    "Tell the Fzorb I said hi",
-    "Tell the Yek I said hi",
-    "Tell the Matt I said hi",
-    "Tell the Molly I said hi",
-    "Tell the Teem I said hi",
-    "Tell the Heka I said hi",
-    "Tell the Butab I said hi",
-    "Tell the Leon I said hi",
-    "Tell the Isaiah I said hi",
-    "Tell the FireCatMagic I said hi",
-    "Tell the Leaf I said hi",
+    "Tell TheShovel I said hi",
+    "Tell 0array I said hi",
+    "Tell Evelyn I said hi",
+    "Tell Fzorb I said hi",
+    "Tell Yek I said hi",
+    "Tell Matt I said hi",
+    "Tell Molly I said hi",
+    "Tell Teem I said hi",
+    "Tell Heka I said hi",
+    "Tell Butab I said hi",
+    "Tell Leon I said hi",
+    "Tell Isaiah I said hi",
+    "Tell FireCatMagic I said hi",
+    "Tell Leaf I said hi",
+    "Tell Mati3D I said hi",
     "Shoutouts to ZKeven",
+    "Shoutouts to KoBeWi",
 
     "I really need to stop working on things at 3 in the morning",
     "If you spam on the foru- Wait wrong site",
@@ -44,18 +46,20 @@ const randomText = [
     "'~'",
 
     "Page Not Found.",
-    "It sees all..."
+    "It sees all...",
+
+    "snooPING AS usual i see" //Never shown.
 ]
 
 
 let playing = false
 
 $(document).ready(function(){
-    let random = Math.floor(Math.random() * randomText.length);
+    let random = Math.floor(Math.random() * randomText.length-1);
     $("#error-text h1").text(randomText[random]);
 
     /* The Eye */
-    if (random == randomText.length-1) { //random == randomText.length-1
+    if (random == randomText.length-2) { //random == randomText.length-1
         $("#error-text").hide();
         $("#error-image").hide();
         $(".four-zero-four").css("width", "10%");
