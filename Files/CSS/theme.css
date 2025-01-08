@@ -52,6 +52,17 @@ body {
     z-index: -1;
 }
 
+.background-pattern-static {
+    -webkit-mask-image: url(/Files/Images/Patterns/Checkerboard.png);
+    mask-image: url(/Files/Images/Patterns/Checkerboard.png);
+    mask-size: 250px 250px;
+    mask-repeat: repeat;
+    opacity: .15;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
 .socials {
     display: flex;
     position: fixed;
@@ -110,6 +121,7 @@ body {
     right: 0px;
     top: 8px;
     min-width: 25%;
+    z-index: 8;
     
 }
 
