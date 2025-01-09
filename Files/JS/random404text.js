@@ -20,8 +20,14 @@ const randomText = [
 
     "I really need to stop working on things at 3 in the morning",
     "If you spam on the foru- Wait wrong site",
+    "Think you might have gotten a bit lost...",
     "Beep Boop!",
     "Ban Domas",
+
+    "The Title Screen holds secrets...",
+    "Backspace + B",
+    "Ctrl + B",
+    "Ctrl + S",
 
     "Who left their Ice Cream lying around",
     "What do you mean I have to destroy the sun",
