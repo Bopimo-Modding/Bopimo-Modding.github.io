@@ -68,11 +68,12 @@ $(document).ready(function(){
     if (random == randomText.length-2) { //random == randomText.length-1
         $("#error-text").hide();
         $("#error-image").hide();
-        $(".four-zero-four").css("width", "10%");
+        //$(".four-zero-four").css("width", "10%");
         $("#error-bopi").attr("src", "/Files/Images/404/BleedingEye.png");
         $(".background-pattern").css("animation", "scrolling-pattern 48s infinite linear");
         $(".background-pattern").css("background-color", "black");
         $(".four-zero-four").css("filter", "none")
+        $("#bgm").attr("src", "/Files/Audio/Eye.mp3");
     }
 
     $("html").click(function(){
